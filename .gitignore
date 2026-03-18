@@ -1,0 +1,24 @@
+# SpinFit — .gitignore
+
+# Database credentials — NEVER commit this
+config/db.php
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# VSCode
+.vscode/
+
+# PHPStorm / JetBrains
+.idea/
+
+# Log files
+*.log
+
+# Uploaded files (if you add a user-upload feature)
+uploads/
+
+# Composer (if added later)
+vendor/
+composer.lock
